@@ -12,11 +12,12 @@
 
 ## After installing the above prerequisites, ensure you can [create a function in your local environment](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=python#create-an-azure-functions-project)
 
-Ensure you have access to install the Python package using pip install 
-•	pip install azure-functions
-•	pip install azure-functions-durable
-•	pip install pandas
-•	pip install requests
+## Ensure you have access to install the Python package using pip install 
+
+### pip install azure-functions
+###	pip install azure-functions-durable
+###	pip install pandas
+### pip install requests
 
 ## Testing
 
