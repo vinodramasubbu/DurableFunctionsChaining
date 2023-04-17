@@ -1,0 +1,18 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "name",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+        {
+          "type": "cosmosDB",
+          "direction": "out",
+          "name": "outputDocument",
+          "databaseName": "OrdersDB",
+          "collectionName": "OrdersCollection",
+          "connectionStringSetting": "orderscdb_DOCUMENTDB"
+        }
+  ]
+}
