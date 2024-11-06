@@ -11,8 +11,8 @@
           "direction": "out",
           "name": "outputDocument",
           "databaseName": "OrdersDB",
-          "collectionName": "OrdersCollection",
-          "connectionStringSetting": "orderscdb_DOCUMENTDB"
+          "containerName": "OrdersCollection",
+          "connection": "orderscdb_DOCUMENTDB"
         }
   ]
 }
