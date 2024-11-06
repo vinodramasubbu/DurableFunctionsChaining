@@ -22,6 +22,5 @@ import json
 #def main(name: str) -> str:
 def main(name: str, outputDocument: func.Out[func.Document]) -> str:
     logging.info(f"Python HTTP trigger function processed a request. Name={name}")
-    #outputDocument.set(func.Document.from_dict({"id": id, "activity": name}))
-    outputDocument.set(func.Document.from_dict(json.loads(name)))
+    outputDocument.set(func.Document.from_json(name))
     return f"{json.loads(name)}!"
