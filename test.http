@@ -1,0 +1,9 @@
+### Send Order Payload
+POST http://localhost:7071/api/orchestrators/DurableFunctionsOrchestrator1
+Content-Type: application/json
+
+{
+  "product": "Widget",
+  "quantity": 10,
+  "price": 19.99
+}
