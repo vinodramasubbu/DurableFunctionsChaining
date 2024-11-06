@@ -6,15 +6,15 @@
 # - add azure-functions-durable to requirements.txt
 # - run pip install -r requirements.txt
 
+
+
 """
 import logging
-
 
 def main(name: str) -> str:
     logging.info(f"Python HTTP trigger function processed a request. Name={name}")
     return f"Hello {name}!"
 """
-
 import azure.functions as func
 import logging
 import uuid
